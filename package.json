@@ -1,8 +1,8 @@
 {
+  "homepage": "http://suhird.guthib.io/Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shloksomani.github.io/react-portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
