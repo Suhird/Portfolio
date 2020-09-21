@@ -30,7 +30,6 @@ import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 
 
-
 ReactDOM.render(
     <React.Fragment>
         <Navbar />
@@ -40,6 +39,7 @@ ReactDOM.render(
         <Contact />
         <BackToTop />
         <Preloader />
+        
     </React.Fragment>,
 document.getElementById('root'));
 

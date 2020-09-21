@@ -1,5 +1,6 @@
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
+import reactIcon from "../img/icons/fonts/reactLogo.png"
 
 class Contact extends React.Component {
   render() {
@@ -159,11 +160,12 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
-        <footer>
+        <footer className="pb-4">
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
                 <div className="copyright-box">
+                <span>Made with  <i className="ion-heart"></i>.    Powered by <img src={reactIcon}></img> </span>
                 </div>
               </div>
             </div>
